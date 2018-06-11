@@ -1,0 +1,517 @@
+
+body{
+		font-size:1em;
+		color:white;
+		background-color:#f1f1f1;
+		font-family: 'Oxygen Mono', monospace; 
+}
+div{
+	padding-right: 2px;
+	padding-left: 2px;
+}
+#header-nav{
+	background-color:white;
+	border-radius:0;
+	border:0; 
+	padding: 0;
+}
+.navbar-header a h1{
+	
+	color:black;
+	text-shadow: 1px 1px 1px #222;
+	font-weight: bold;
+	line-height: 0.75;
+
+}
+.navbar-header p{
+	color:white;
+	font-size: 0.75em;
+	margin-top: 15px;
+	font-family: 'Oxygen Mono', monospace; 
+		
+}
+#cons{
+	color:#3f4042;
+	font-weight: bolder;
+}
+.navbar-brand{
+	padding-top:25px;
+
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+
+}
+#nav-list{
+	margin-top: -10px;
+	text-align:center;
+	padding-top: 20px;
+	margin-bottom:10px;
+}
+#sub p{
+	color:black;
+	font-family: 'Oxygen Mono', monospace; 
+
+}
+#nav-list a{
+	color:black;
+	font-weight: bold;
+	text-align:center;
+	font-family:'Montserrat',sans-serif;
+	letter-spacing: 0.24rem;
+}
+#nav-list a:hover,a:focus{
+	
+	font-size:1.6em;
+	display: table-cell;
+	text-align: center;
+	background-color: transparent;
+	opacity: 0.5;
+	letter-spacing: 3px;
+	color:#626b4e;
+}
+#phone{
+	margin-top: -40px;
+	text-align: right;
+	padding-bottom: 0;
+	margin-left: 10px; 
+}
+.navbar-header button.navbar-toggle{
+	clear:both;
+}
+.jumbotron{
+	padding:0;
+	margin: 0;
+}
+#add{
+	position: relative;
+	border:2px solid #3F0C1F ;
+	height:250px;
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	overflow:hidden;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+#add span{
+	background-color: black;
+	color: white;
+	opacity: .6;
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	text-align: center;
+
+}
+.exheads{
+	font-size: 1.2em;
+	margin-left: 35px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color:#3f4042;
+	font-family: 'Oxygen mono',sans-serif;
+}
+#Skillset{
+	list-style:none;
+}
+.cc{
+	margin: auto;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#Domains,#Address,#Social{
+	line-height: 2;
+}
+#Domains > span, #Address >span, #Social >span{
+font-size: 1.3em;
+}
+.panel-footer{
+	margin-top: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color:black;
+	border-top: 0;
+	background-color: #eae6e1;
+
+}
+.panel-footer section{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.panel-footer section: nth-child(3){	
+	margin-bottom: 0;
+}
+.panel-footer section hr{
+	width:50%;
+}
+hr{
+	border-color: black;
+	color:black;
+	background-color: black;
+}
+
+/**** Media Queries****/
+@media(min-width: 1200px){
+	#logo-img{
+	border:solid;
+	border-radius: 150%;
+	text-decoration: none;
+	font-size: 3.6vw;
+	color:#3f4042;
+	width:80px;
+	height:80px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+#logo-img:hover{
+	background-color: gray;
+	opacity: 0.6;
+	color:white;
+}
+.navbar-header a{
+	text-decoration: none;
+}
+	.jumbotron{
+		background: url('../pfi.jpg') no-repeat;
+		height: 300px;
+		box-shadow: 0 0 50px #484c51;
+		border:2px solid #484c51 ;
+	}
+	.bio{
+	position: relative;
+	left:46%;
+	top:20%;
+	margin:0;
+	width:50%;
+	height:350px;
+}
+}
+
+@media(min-width: 992px) and (max-width:1199px ){
+#logo-img{
+	border:solid;
+	border-radius: 150%;
+	text-decoration: none;
+	font-size: 4.5vw;
+	color:black;
+	width:80px;
+	height:80px;
+	margin-top: 20px;
+	float:left;
+	margin-right: 20px;
+}
+.navbar-header a{
+	text-decoration: none;
+}
+	.jumbotron{
+		background: url('../pfi_med.jpeg') no-repeat;
+		height: 350px;
+		box-shadow: 0 0 50px #484c51;
+		border:2px solid #484c51 ;
+}
+.bio{
+	position: relative;
+	left:50%;
+	top:20%;
+	color: #3f4042;
+	margin:0;
+	width:40%;
+	height:350px;
+}
+}
+#xx{
+	    color: #f15b2a;
+    border-color: #f15b2a;
+    background-color: transparent;
+}
+@media(min-width: 768px) and (max-width:991px ){
+#logo-img{
+	border:solid;
+	border-radius: 150%;
+	text-decoration: none;
+	font-size: 4vw;
+	color:black;
+	width:60px;
+	height:60px;
+	margin-top: 20px;
+	float:left;
+	margin-right: 20px;
+
+}
+.jumbotron{
+		background: url('../pfi_smm.jpeg') no-repeat;
+		height: 350px;
+		background-color: #eae6e1;
+		box-shadow: 0 0 50px #484c51;
+		border:2px solid #484c51 ;
+}
+.bio{
+	position: relative;
+	left:55%;
+	top:20%;
+	margin:0;
+	width:40%;
+	background-color: #eae6e1;
+	height:200px;
+}
+.navbar-header{
+	padding: 0;
+	margin-right: 50px;
+}
+.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+		width:50%;
+	}
+.navbar-brand a{
+		width:30%;
+	}
+	.navbar-brand h1{
+		padding-top:10px;
+		font-size: 2.5vw;
+	}
+}
+@media(max-width: 767px){
+	#logo-img{
+	border:solid;
+	border-radius: 150%;
+	text-decoration: none;
+	font-size: 1.3vw;
+	color:black;
+	background-color: #eae6e1;
+	width:40px;
+	height:40px;
+	margin-top: 20px;
+	float:left;
+	margin-right: 20px;
+}
+#img1{
+	width:100%;
+}
+.jumbotron{
+		height: 350px;
+		box-shadow: 0 0 50px black;
+		border:2px solid black ;
+		background-color: #eae6e1;
+		background-position: center;
+		overflow: hidden;
+		margin:auto;
+}
+
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top:10px;
+		font-size: 5vw;
+	}
+}
+#main-content{
+	font-family: 'Oxygen mono',sans-serif;
+}
+#Experience{
+	font-family: 'Oxygen mono',sans-serif;
+	background-color: #eae6e1;
+
+}
+.heading1{
+	background-color: #eae6e1;
+	text-decoration: underline;
+	font-family: 'Oxygen mono',sans-serif;
+	margin-top: 0px;
+}
+#skillss{
+	font-family: 'Oxygen mono',sans-serif;
+	width:100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 0;
+	background-color:white;
+}
+#projects li{
+	list-style: none;
+}
+#projects h4{
+	margin-left: 35px;
+	font-family: 'Oxygen mono',sans-serif;
+}
+#projects{
+	background-color: white;
+	margin-top: 0px;
+}
+
+#skillsep{
+	text-align: center;
+	color:#3d4244;
+	background-color: white;
+}
+li{
+color:#3f4042;
+}
+#skillhead{
+	margin:0;
+	height: 50px;
+	width: 180px;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: :1px;
+}
+#skillss a h4{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	color:#3f4042;
+	font-family: 'Oxygen mono',sans-serif;
+}
+#skillss a h4:hover{
+	color:#626b4e;
+	letter-spacing: 3px;
+	}
+
+#skillss a:hover{
+	text-decoration: none;
+	color: white;
+}
+.heading{
+	text-decoration: underline;
+	font-family: 'Oxygen mono',sans-serif;
+	margin-top: 0px;
+	background-color: white;
+	width: 100%;
+
+}
+#skill2{
+	
+	margin-left: 0;
+}
+#skillhead{
+	color:#bcc5d3 ;
+	width: 100px;
+	font-weight: bold;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 20px;
+   height:20px;
+   border-radius: 20%;
+}
+.code{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-size:50px;
+}
+.code1{
+	margin-left: 5px;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  width: 20px;
+  height:20px;
+  border-radius: 20%;
+}
+.fa-github {
+  background: white;
+  color: black;
+  width: 20px;
+   height:20px;
+   border-radius: 20%;
+}
+#projects a{
+	text-decoration: none;
+	color:#3f4042;
+}
+#projects li{
+	font-family: 'Oxygen Mono', monospace;
+	color:#3f4042;
+}
+#projects a h4:hover{
+	color: #626b4e;
+	letter-spacing: 3px;
+	background-color: transparent;
+}
+.fab{
+	color: black;
+}
+.fas{
+	color: black;
+}
+#brandhead{
+	font-family: 'Oxygen Mono', monospace; 
+}
+#projexp{
+	border-radius: 100%;
+	background-color: transparent;
+	color:black;
+	font-weight: bolder;
+	width:40px;
+	height:40px;
+	font-size: 0.4em;
+	margin-top: 0px;
+	margin-left: 5px;
+	position: relative;
+	float:left;
+}
+#projexp:hover{
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+}
+#projexp1{
+	border-radius: 100%;
+	background-color: transparent;
+	color:black;
+	font-weight: bolder;
+	width:40px;
+	height:40px;
+	font-size: 0.4em;
+	margin-top: 0px;
+	margin-left: 5px;
+	position: relative;
+	float:left;
+}
+#projexp1:hover{
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+}
+#projexp2{
+	border-radius: 100%;
+	background-color: transparent;
+	color:black;
+	font-weight: bolder;
+	width:40px;
+	height:40px;
+	font-size: 0.4em;
+	margin-top: 0px;
+	margin-left: 5px;
+	position: relative;
+	float:left;
+}
+#projexp2:hover{
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+}

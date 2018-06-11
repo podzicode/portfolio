@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Saketh Poduri</title>
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/bootstrap.css">
+	<link rel="stylesheet"  href="css/styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head> 
+	<body> 
+		<script  src="js/jquery-3.3.1.min.js"></script>
+		<script  src="js/bootstrap.min.js"></script>
+		<script  src="js/ajax-utils.js"></script>
+		
+		<header>
+			<nav id="header-nav" class="navbar navbar-expand-md navbar-light">
+				<div class="container">
+					<div class="navbar-header">
+						<a href="index.html" class= "d-none d-lg-block d-md-block float-left">
+							<div id="logo-img" class="text-center" alt="go to home">
+								SP
+							</div>
+						</a>
+						<div class="navbar-brand">
+							<a href="index.html"><h1 id="brandhead">Saketh Poduri</h1></a>
+							<span id="sub"><p>Software Developer</p></span>
+
+					</div>
+						
+						
+				</div>
+				<button type="button" id="data_toggle" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul id="nav-list" class="nav navbar-nav ml-auto w3-animate-left">
+						<li class="nav-item active">
+							<a href="#skillss" class="btn-xs header_sign_up_link" id="xx">Skills
+								<span class="glyphicons glyphicons-show-lines"></span><br class="d-none d-lg-block d-md-block"></a>
+							</li>
+						<li class="nav-item"><a href="#Experience">Experience
+						<span class="glyphicon glyphicon-cutlery"></span><br class="d-none d-md-block d-lg-block"></a></li>
+						<li class="nav-item"><a href="#main-content">Bio
+						<span class="glyphicon glyphicon-cutlery"></span><br class="d-none d-md-block d-lg-block"></a></li>
+						<li id="phone" class="nav-item d-md-block d-lg-block d-none"><a href="tel:408-649-4847">Ph:408-649-4847</a></</li>
+					</ul>
+				</div>
+			</div>
+			</nav>
+		</header>
+		<div id="main-content" class="container w3-animate-opacity">	
+		</div><!--END OF MAIN CONTENT-->
+		<div class="heading w3-animate-left text-center" style="font-size: large;color:#3f4042;font-weight: bolder; font-size: 2.5em;">Skills<button type="button" class="btn-btn-info fa fa-plus text-center" onclick="ShowSkill()" id="projexp2"></button></div>
+		<div id="skillss" class= "row">	
+			</div>
+			<div class="heading1 w3-animate-left" style="text-align: center;font-size: large;color: #3f4042;font-weight: bolder; font-size: 2.5em;">Experience<button type="button" class="btn-btn-info fa fa-plus text-center" onclick="ShowExp()" id="projexp1"></button>	
+			</div>
+			<div id="Experience" class="row w3-animate-opacity">
+				
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="#Cs">
+					<h4 class="exheads">&#10095; Graduate Assistant, The Office of Dean of Accreditation - Long Beach, California (Mar,2017 – May,2018)</h4>
+					<ul class="collapse" id="Cscont">
+						<li> Responsible for analyzing and reporting data about student results and scoring pattern for the last 4 years</li>
+						<li> Built reports needed for faculty assessments through statistical analysis and visualization using Excel and Tableau</li>
+						<li> Performed ETL on raw data to draw conclusions, trends and key insights about the business. Transformed analysis into digestible and visually aesthetic reports and presented to faculty, staff and administrators</li>
+						<li> Assessed the effectiveness of business programs by analyzing score data andreports that assess student learning for ten business schools.</li>
+					</ul>
+					<hr class="d-block d-sm-none d-lg-none" id="seperator">
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="#inf">
+				<h4 class="exheads">&#10095; Systems Engineer, Infosys, India (Mar 2015 – May 2016)</h4>
+				<ul class="collapse" id="infCont">
+					
+					<li> Developed Requirement Specifications and test cases for each use cases</li>
+					<li> Used .NET framework to develop fully functional software</li>
+					<li> Developed code modules for both front end and middleware to access the database</li>
+					<li> Employed Object Oriented principles on a high level to make the code much more reusable and safe</li>
+				</ul>
+				</div>
+
+			</div>
+			<div class="heading w3-animate-left" style="text-align: center;font-size: 2.5em; color: #3f4042;font-weight: bolder; text-transform: capitalize;"><button type="button" class="btn-btn-info fa fa-plus text-center" onclick="Showprojects()" id="projexp"></button>Projects	
+			</div>
+			<div id="projects" class="row w3-animate-opacity">
+				<div class="col-md-12 col-lg-12 col-sm-12 w3-animate-opacity">
+				<a data-toggle="collapse" href="#projdesc1" aria-expanded="false" id="a"><h4>&#10095; Movie ticketing website corporada</h4></a>
+					<ul class="collapse" id="projdesc1">
+						<li>&#9998; Corporate Movie ticketing system which was used by Infosys Ltd's internal staff.</li>
+						<li>&#9998; It is a three page website with a page to book ticket,one page to view all the available movies and one page for payment.</li>
+						<li>&#9998; Used HTML,CSS and Javascript to develope interactive,responsive and visually appealing UI.</li>
+						<li>&#9998; Used Meadia queries, twitter bootstrap and also ajax to render some content for the pages.</li>
+						<li>&#9998; Used ADO.NET and Entity framework as the middleware to connect to the database and perform the necessary CRUD operations.</li>
+						<li>&#9998; Used ASP.NET MVC framework on a whole to create this Web application.</li>
+						<li>&#9998; Wrote procedures and functions with Microsoft SQL server which helped the backend logic for some computations.</li>
+					</ul>
+					<a data-toggle="collapse" href="#projdesc2" aria-expanded="false"><h4>&#10095; Source code management</h4></a>
+					<ul class="collapse" id="projdesc2">
+						<li>&#9998; Used Java to create a local source code management system like Git.</li>
+						<li>&#9998; Created two functions Check In and Check out to track the activity on file.</li>
+						<li>&#9998; A directory activity with a manifest file in it records all the user actions on the file.</li>
+						<li>&#9998; Target directory saves all the versions of the files with all new and previous updates.</li>
+						<li>&#9998; Used string handling and file management libraries of Java mainly.</li>
+					</ul>
+					<a data-toggle="collapse" href="#projdesc3" aria-expanded="false"><h4>&#10095; Predictive model to determine flight status</h4></a>
+					<ul class="collapse" id="projdesc3">
+						<li>&#9998; Machine learning model to predict the flight status.</li>
+						<li>&#9998; Created a Supervised learning model to predict if the flight is going to be delayed or not.</li>
+						<li>&#9998; Applied Linear regression through pyspark on Azure cluster.</li>
+						<li>&#9998; Provisioned and deployed an Azure cluster and used pyspark and python for data cleansing and analysis.</li>
+						<li>&#9998; Trained and tested the model.</li>
+					</ul>
+					<a data-toggle="collapse" href="#projdesc4" aria-expanded="false"><h4>&#10095; ETL on microsoft's adventureworks database.</h4></a>
+					<ul class="collapse" id="projdesc4">
+						<li>&#9998; Transferring the data on local system to the cloud.</li>
+						<li>&#9998; Extraction, Transformation and Load operations on the local database copy through microsoft SSIS.</li>
+						<li>&#9998; Applied joins,lookups and also filtered out the corrupted data to a seperate flat file destination.</li>
+						<li>&#9998; Created both Data flow and control flow on SSIS.</li>
+					</ul>
+				</div>
+
+			</div>
+
+		<footer class="panel-footer">
+			<div class="container">
+				<div class="row">
+					<section id="Domains" class="col-sm-4">
+						<span style="text-decoration: underline;">Domains Experienced</span>
+						<ul id="Skillset">
+							<li>Software Development</li>
+							<li>Web Development</li>
+							<li>Machine Learning</li>
+							<li>Data Engineering</li>
+						</ul>
+						<hr class="d-block d-sm-none d-lg-none" id="seperator">
+					</section>
+					<section id="Address" class="col-sm-4 text-center">
+						<span style="text-decoration: underline;">Address</span><br>
+						6083 Knol Park Ct, San Jose, CA, 95120<br>
+						<a href="https://goo.gl/maps/tSv3NGcdtVw" alt="Location" target="_blank">
+						<div id= "add">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.873576551527!2d-118.14079634998009!3d33.789762738870614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd31945f61e695%3A0x8a8d410ac521bd7!2s4722+E+Atherton+St%2C+Long+Beach%2C+CA+90815!5e0!3m2!1sen!2sus!4v1527991308773" width="250" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div style="text-align: center; width: 100%;background-color: black;opacity: 0.6;color:white;">Address</div></div></a>
+						<hr class="d-block d-sm-none d-lg-none">
+					</section>
+					<section id="Social" class="col-sm-4 ftr-social-icons">
+						<span style="text-decoration: underline;">Social</span><br>
+						<span><a href="https://www.facebook.com/saketh.poduri.7" class="fa fa-facebook"></a></span>&nbsp;
+						<span><a href="https://github.com/podzicode" class="fa fa-github"></a></span>&nbsp;
+						<span><a href="https://www.linkedin.com/in/sakethpoduri/" class="fa fa-linkedin"></a></span>
+
+						<hr class="d-block d-sm-none d-lg-none">
+					</section>
+					<div class="cc">&copy; Copyright Saketh Poduri's profile 2018</div>
+ 
+				</div>
+			</div>
+		</footer>
+			<script  src="js/scripts.js"></script>
+		</body>
+
+</html>
